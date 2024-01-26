@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB PERTAMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="icon/contact.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">DIMAS</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#tentang">TENTANG</a></li>
+          <li><a href="#">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello 🙋🏻‍♂️, Dimas Akbar A Here!</p>
+        <p class="description">10123162-IF4</p>
+        <p class="description">Technology Enthusiast From Bandung.</p>
+        <img
+          src="foto/IMG_3017.JPG"
+          alt="dimas akbar foto 1"
+          class="img-foto"
+        />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya Adalah Fullstack Developer</p>
+        <p class="description">Mulai ngoding aja dulu, ngertinya belakangan.</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirLinkedin ()">
+            Mari KerjaSama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="tentang">
+          <div class="card-item">
+            <img src="icon/24-hours.png" alt="icon 1" class="icon" />
+            <p class="card-title">Dapat Dihubungingi setiap saat 📞</p>
+            <p class="card-description">Kontak Berada Di Paling Atas</p>
+          </div>
+          <div class="card-item">
+            <img src="icon/partner.png" alt="icon 2" class="icon" />
+            <p class="card-title">Terbuka Untuk Siapa Saja 🤝🏼</p>
+            <p class="card-description">
+              Perusahaan Dan freelance Sangat terbuka
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="icon/rating.png" alt="icon 3" class="icon" />
+            <p class="card-title">Terkenal Mahir Di posisinya🧑🏻‍💻</p>
+            <p class="card-description">
+              Baik Dalam Frontend Maupun Backend Developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Dimas Akbar Website 2023</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/idn.fabuleux";
+      }
+
+      function redirLinkedin() {
+        window.location.href =
+          "https://www.linkedin.com/in/dimas-akbar-alhafidz-65b857282";
+      }
+    </script>
+  </body>
+</html>
